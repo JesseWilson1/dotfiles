@@ -6,24 +6,24 @@ fi
 
 # Add tab completion for many Bash commands
 source "$(brew --prefix)/share/bash-completion/bash_completion"
-source "$(rustc --print sysroot)/etc/bash_completion.d/cargo"
+#source "$(rustc --print sysroot)/etc/bash_completion.d/cargo"
 
 # Enable autojump.
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 # == Exports ==
-export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+#export PATH="/usr/local/opt/node@8/bin:$PATH"
+#export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
+#export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
 
 # Disable per-terminal-session history: http://stackoverflow.com/a/34803825
 export SHELL_SESSION_HISTORY=0
 
-export GOROOT="$(brew --prefix golang)/libexec"
+#export GOROOT="$(brew --prefix golang)/libexec"
 
 # Allow OpenSSL to be linked.
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig"
+#export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig"
 
 # == Aliases ==
 
@@ -44,7 +44,7 @@ alias flush="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias opend='open http://localhost:3000'
 
 # System update.
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; yarn global upgrade; rustup update; cargo +nightly install --force clippy rustfmt-nightly; cargo install-update -a'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup'
 
 # Lock screen.
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
@@ -70,17 +70,17 @@ function disconnect() {
   osascript -e 'tell application "Tunnelblick"' -e 'disconnect all' -e 'end tell'
 }
 
-function dojsdoc() {
-  global_mod="$HOME/.config/yarn/global/node_modules"
-  echo "{\"plugins\": [\"${global_mod}/jsdoc-babel\"]}" > __jsdoc.json
-  mkdir __jsdocs
-  cd __jsdocs
-	sleep 1 && open "http://localhost:8000/" &
-  python -m SimpleHTTPServer 8000 > /dev/null 2>&1 &
-  serve_pid=$!
-  cd ..
-  watch jsdoc modules index.js -c __jsdoc.json -r -R readme.md -d __jsdocs -t $global_mod/docdash
-  kill $serve_pid
-  rm __jsdoc.json
-  rm -rf __jsdocs
-}
+#function dojsdoc() {
+#  global_mod="$HOME/.config/yarn/global/node_modules"
+#  echo "{\"plugins\": [\"${global_mod}/jsdoc-babel\"]}" > __jsdoc.json
+#  mkdir __jsdocs
+#  cd __jsdocs
+#	sleep 1 && open "http://localhost:8000/" &
+#  python -m SimpleHTTPServer 8000 > /dev/null 2>&1 &
+#  serve_pid=$!
+#  cd ..
+#  watch jsdoc modules index.js -c __jsdoc.json -r -R readme.md -d __jsdocs -t $global_mod/docdash
+#  kill $serve_pid
+#  rm __jsdoc.json
+#  rm -rf __jsdocs
+#}

@@ -31,21 +31,21 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 export MANPAGER='less -X';
 
 export TERM=xterm-256color
-export DEFAULT_USER=wavded
+export DEFAULT_USER=adambehn
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 
 # ==== Go ====
-export GOPATH=$HOME/Projects/go
-export GOBIN=$HOME/Projects/go/bin
-export PATH=${GOPATH}/bin:$GOBIN:$PATH
+#export GOPATH=$HOME/Projects/go
+#export GOBIN=$HOME/Projects/go/bin
+#export PATH=${GOPATH}/bin:$GOBIN:$PATH
 
 # ==== Haskell ====
-export PATH=$HOME/Library/Haskell/bin:$PATH
+#export PATH=$HOME/Library/Haskell/bin:$PATH
 
 # ==== Yarn ====
-hash yarn >/dev/null 2>&1 && export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin
+#hash yarn >/dev/null 2>&1 && export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin
 
 # ==== Rust ====
-export PATH="$HOME/.cargo/bin:$PATH"
-hash rustc >/dev/null 2>&1 && export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
-export LD_LIBRARY_PATH=$HOME/.rustup/toolchains/nightly-x86_64-apple-darwin/lib:$LD_LIBRARY_PATH
+#export PATH="$HOME/.cargo/bin:$PATH"
+#hash rustc >/dev/null 2>&1 && export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+#export LD_LIBRARY_PATH=$HOME/.rustup/toolchains/nightly-x86_64-apple-darwin/lib:$LD_LIBRARY_PATH

@@ -23,16 +23,16 @@ brew install tree
 brew install ripgrep
 brew install fd
 brew install autojump
-brew install graphicsmagick
-brew install cairo
-brew install tmux
-brew install reattach-to-user-namespace
+#brew install graphicsmagick
+#brew install cairo
+#brew install tmux
+#brew install reattach-to-user-namespace
 brew install watch
-brew install cmake
-brew install plantuml
+#brew install cmake
+#brew install plantuml
 brew install python3
-brew install neovim/neovim/neovim
-pip3 install neovim
+#brew install neovim/neovim/neovim
+#pip3 install neovim
 
 # == Git
 brew install git
@@ -45,19 +45,19 @@ brew install pinentry-mac
 mkdir ~/.gnupg
 echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
 
-brew install node
-brew install yarn
-brew install go
-mkdir -p ~/Projects/go
+#brew install node
+#brew install yarn
+#brew install go
+#mkdir -p ~/Projects/go
 
 # == Cask
-brew cask install postgres
-brew cask install postico
+#brew cask install postgres
+#brew cask install postico
 brew cask install docker
-brew cask install the-unarchiver
-brew cask install java
+#brew cask install the-unarchiver
+#brew cask install java
 brew cask install gitup
-brew cask install imageoptim
+#brew cask install imageoptim
 brew cask install hammerspoon
 
 brew cleanup
@@ -71,39 +71,39 @@ fi;
 # === Section: yarn ===
 
 # == Yarn completion
-curl -L https://raw.githubusercontent.com/dsifford/yarn-completion/master/yarn-completion.bash > `brew --prefix`/etc/bash_completion.d/yarn
+#curl -L https://raw.githubusercontent.com/dsifford/yarn-completion/master/yarn-completion.bash > `brew --prefix`/etc/bash_completion.d/yarn
 
 # == Yarn packages
-yarn global add \
-  babel-core \
-  babel-cli \
-  eslint \
-  babel-eslint \
-  eslint-plugin-react \
-  eslint-config-adc \
-  jsdoc \
-  jsdoc-babel \
-  docdash \
-  tern \
-  istanbul \
-  concurrently \
-  stylefmt \
-  prettier \
-  nodemon
+#yarn global add \
+#  babel-core \
+#  babel-cli \
+#  eslint \
+#  babel-eslint \
+#  eslint-plugin-react \
+#  eslint-config-adc \
+#  jsdoc \
+#  jsdoc-babel \
+#  docdash \
+#  tern \
+#  istanbul \
+#  concurrently \
+#  stylefmt \
+#  prettier \
+#  nodemon
 
 # === Section: rust ===
 
 # == Rust
-curl https://sh.rustup.rs -sSf | sh
-rustup install nightly
-rustup default nightly
-rustup component add rls-preview
-rustup component add rust-analysis
-rustup component add rust-src
+#curl https://sh.rustup.rs -sSf | sh
+#rustup install nightly
+#rustup default nightly
+#rustup component add rls-preview
+#rustup component add rust-analysis
+#rustup component add rust-src
 
 # == Cargo packages
-rustup default stable
-cargo +nightly install clippy
-cargo +nightly install rustfmt-nightly
-cargo install racer
-cargo install cargo-update
+#rustup default stable
+#cargo +nightly install clippy
+#cargo +nightly install rustfmt-nightly
+#cargo install racer
+#cargo install cargo-update

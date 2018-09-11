@@ -48,19 +48,19 @@ alias reload="exec $SHELL -l"
 #   tmux attach -t "$project"
 # }
 
-function tm() {
-  tmux has-session -t base &> /dev/null
+#function tm() {
+#  tmux has-session -t base &> /dev/null
+#
+#  if [ $? != 0 ]; then
+#    tmux new-session -s base -d -n base
+#    tmux attach -t base
+#  fi
 
-  if [ $? != 0 ]; then
-    tmux new-session -s base -d -n base
-    tmux attach -t base
-  fi
-
-  tmux split-window  -v
-  tmux send-keys     -t 0 'vim' C-m
-  tmux resize-pane   -D 10
-  tmux select-pane   -t 1
-}
+#  tmux split-window  -v
+#  tmux send-keys     -t 0 'vim' C-m
+#  tmux resize-pane   -D 10
+#  tmux select-pane   -t 1
+#}
 
 # Tmux naming of SSH windows.
 # ssh() {

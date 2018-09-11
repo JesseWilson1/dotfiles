@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-files=(bash bashrc bash_profile inputrc gitconfig eslintrc tern-project vimrc ignore tmux.conf)
+files=(bash bashrc bash_profile inputrc gitconfig vimrc ignore)
 dir="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 function rm-if-present { # $1: to-path $2: from-path
@@ -18,7 +18,6 @@ done
 if [[ `uname` == "Darwin" ]]; then
   rm-if-present "$HOME/.hushlogin" "$dir/hushlogin"
   mkdir -p $HOME/.config
-  rm-if-present "$HOME/.config/nvim" "$dir/nvim"
   rm-if-present "$HOME/.hammerspoon" "$dir/hammerspoon"
   echo "...reload shell before installing packages, run fix script for iTerm"
 fi
