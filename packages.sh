@@ -20,6 +20,8 @@ brew install bash-completion2
 
 # == Utilities
 brew install dropbox
+brew install terraform
+brew install doctl
 brew install forklift
 brew install viscosity
 brew install 1password
