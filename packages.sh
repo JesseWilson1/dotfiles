@@ -19,6 +19,11 @@ brew install bash-git-prompt
 brew install bash-completion2
 
 # == Utilities
+brew install dropbox
+brew install forklift
+brew install viscosity
+brew install 1password
+brew install 1password-cli
 brew install tree
 brew install ripgrep
 brew install fd
