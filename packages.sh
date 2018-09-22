@@ -29,7 +29,9 @@ brew install 1password-cli
 brew install tree
 brew install ripgrep
 brew install fd
+brew install pgadmin4
 brew install autojump
+brew cask install bettertouchtool
 #brew install graphicsmagick
 #brew install cairo
 #brew install tmux
