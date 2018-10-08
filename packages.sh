@@ -22,6 +22,7 @@ brew install bash-completion2
 brew install dropbox
 brew install terraform
 brew install doctl
+brew cask install decrediton
 brew install forklift
 brew install viscosity
 brew install 1password
