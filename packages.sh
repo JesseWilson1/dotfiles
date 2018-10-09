@@ -33,6 +33,7 @@ brew install fd
 brew install pgadmin4
 brew install autojump
 brew cask install bettertouchtool
+brew cask install coconutbattery
 #brew install graphicsmagick
 #brew install cairo
 #brew install tmux
