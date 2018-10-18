@@ -34,6 +34,9 @@ brew install pgadmin4
 brew install autojump
 brew cask install bettertouchtool
 brew cask install coconutbattery
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 #brew install graphicsmagick
 #brew install cairo
 #brew install tmux
