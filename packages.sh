@@ -34,6 +34,7 @@ brew install pgadmin4
 brew install autojump
 brew cask install bettertouchtool
 brew cask install coconutbattery
+brew cask install telegram
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
