@@ -52,13 +52,22 @@ brew cask install coconutbattery
 brew cask install decrediton
 brew cask install docker
 brew cask install firefox
+brew cask install forklift
 brew cask install gitup
 brew cask install google-chrome
 brew cask install hammerspoon
+brew cask install keybase
+brew cask install pgadmin4
+brew cask install resilio-sync
+brew cask install spaceradar
+brew cask install spotify
+brew cask install steam
 brew cask install telegram
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
+brew cask install viscosity
+brew cask install wireshark
 
 brew cleanup
 
