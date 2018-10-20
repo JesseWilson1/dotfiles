@@ -33,6 +33,8 @@ brew install fd
 brew install pgadmin4
 brew install autojump
 brew cask install bettertouchtool
+brew cask install firefox 
+brew cask install google-chrome
 brew cask install coconutbattery
 brew cask install telegram
 brew cask install vagrant
