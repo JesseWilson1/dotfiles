@@ -17,6 +17,7 @@ brew install ssh-copy-id
 brew install bash
 brew install bash-git-prompt
 brew install bash-completion2
+brew install vagrant-completion
 
 # == Utilities
 brew install dropbox
