@@ -1,7 +1,8 @@
 [user]
-  name = Adam Behn 
+  name = Adam Behn
   email = behner@gmail.com
-#  signingkey = 637EF5D2547B1320A9FDBEE2CDF3528E55977962
+	signingkey = 381ECCF0CF367235
+# https://github.com/pstadler/keybase-gpg-github
 
 [alias]
   hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
@@ -31,6 +32,7 @@
   autocorrect = 1
 
 [commit]
+	gpgsign = true
 #  gpgSign = true
 
 [core]
