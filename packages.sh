@@ -49,6 +49,8 @@ echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
 
 # == Cask
 brew cask install adobe-acrobat-reader
+brew cask install dbeaver-community
+brew cask install brooklyn
 brew cask install coconutbattery
 brew cask install decrediton
 brew cask install docker
