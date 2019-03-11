@@ -62,6 +62,7 @@ brew cask install hammerspoon
 brew cask install keybase
 brew cask install pgadmin4
 brew cask install resilio-sync
+brew cask install signal
 brew cask install spaceradar
 brew cask install spotify
 brew cask install steam
