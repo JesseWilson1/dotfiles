@@ -5,7 +5,7 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 # Add tab completion for many Bash commands
-source "$(brew --prefix)/share/bash-completion/bash_completion"
+#source "$(brew --prefix)/share/bash-completion/bash_completion"
 #source "$(rustc --print sysroot)/etc/bash_completion.d/cargo"
 
 # Enable autojump.
@@ -84,3 +84,6 @@ function disconnect() {
 #  rm __jsdoc.json
 #  rm -rf __jsdocs
 #}
+
+
+ [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"

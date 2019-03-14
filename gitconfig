@@ -1,7 +1,8 @@
 [user]
   name = Adam Behn
   email = behner@gmail.com
-	signingkey = 834647A26CAE9EF3
+  email = abehn@adc4gis.com
+	signingkey = 89F1280C79109AF2
 # https://github.com/pstadler/keybase-gpg-github
 
 [alias]
@@ -37,3 +38,5 @@
 
 [core]
   ignorecase = false
+[gpg]
+	program = /usr/local/bin/gpg
