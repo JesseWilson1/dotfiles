@@ -20,6 +20,7 @@ brew install bash-completion
 brew install vagrant-completion
 
 # == Utilities
+brew install ansiweather
 brew install dropbox
 brew install terraform
 brew install doctl
