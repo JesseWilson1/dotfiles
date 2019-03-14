@@ -4,6 +4,9 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
   source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
+GPG_TTY=$(tty)
+export GPG_TTY
+
 # Add tab completion for many Bash commands
 #source "$(brew --prefix)/share/bash-completion/bash_completion"
 #source "$(rustc --print sysroot)/etc/bash_completion.d/cargo"
