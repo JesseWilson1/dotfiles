@@ -63,13 +63,12 @@ brew cask install keybase
 brew cask install pgadmin4
 brew cask install resilio-sync
 brew cask install signal
+brew cask install slack
 brew cask install spaceradar
 brew cask install spotify
 brew cask install steam
 brew cask install telegram
 brew cask install vagrant
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
 brew cask install viscosity
 brew cask install wireshark
 
