@@ -69,6 +69,8 @@ brew cask install spotify
 brew cask install steam
 brew cask install telegram
 brew cask install vagrant
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 brew cask install viscosity
 brew cask install wireshark
 
