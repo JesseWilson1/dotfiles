@@ -39,4 +39,4 @@
 [core]
   ignorecase = false
 [gpg]
-	program = /usr/local/bin/gpg
+	program = gpg
