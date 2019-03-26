@@ -70,6 +70,7 @@ brew cask install spotify
 brew cask install steam
 brew cask install telegram
 brew cask install transmission
+brew cask install tunnelblick
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
