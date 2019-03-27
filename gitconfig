@@ -1,8 +1,7 @@
 [user]
-  name = Adam Behn
-  email = behner@gmail.com
-  email = abehn@adc4gis.com
-	signingkey = 89F1280C79109AF2
+  name = Jesse Wilson
+  email = jessewilson215@gmail.com
+	signingkey = 02CA3D944DAB68D0 
 # https://github.com/pstadler/keybase-gpg-github
 
 [alias]
